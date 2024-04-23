@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
+
+body{
+    background-image:url(img/FundoSenai.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: aliceblue;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.centralizar{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 100px;
+    
+}
+
+.titulos{
+    font-family: 'Courier New', Courier, monospace;
+    text-shadow: 1px 1px 1px rgb(0, 0, 0);
+}
+
+.titulos h1{
+    font-weight:600px;
+    font-size: 70px;
+    margin-bottom: 100px;
+}
+
+.titulos h3{
+    text-align: justify;
+    font-size: 30px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #391a04;
+    width: 300px;
+    height: 400px;
+    margin-top: 80px;
+    border-radius: 15px;
+    padding: 20px;
+    color:  #b6a89e;
+}
+
+form p{
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+input{
+    margin:10px;
+    background-color: #b6a89e;
+    height: 20px;
+    border-radius: 12px;
+}
+
+button{
+    margin-top: 20px;
+    height: 50px;
+    width: 100px;
+    border-radius: 15px;
+    font-size: 18px;
+    background-color: #b6a89e;
+}
+
+.botao{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
